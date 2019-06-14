@@ -140,7 +140,7 @@ function power(val, pow) {
     }
 };
 console.log("Возведение в степень:");
-var val,pow;
+var val, pow;
 val = prompt("Задача 8. Что возводим?");
 pow = prompt("Задача 8. В какую степень?");
 
