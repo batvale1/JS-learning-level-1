@@ -16,7 +16,7 @@ var closeButton = document.querySelector("#close-button");
 function displayCart(cartContentTotal) {
     var $parent = document.getElementById('cart');
     var $child = document.querySelector(".wrapCart p") ? document.querySelector(".wrapCart p") : document.createElement("p");
-    if (cartContentTotal.quantity == 0) {
+    if (cartContentTotal.quantity === 0) {
         $child.textContent = "The cart is empty.";
     } else {
         $child.textContent = "In the cart " + cartContentTotal.quantity + " goods worth " + cartContentTotal.sum;
