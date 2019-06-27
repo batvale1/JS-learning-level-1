@@ -94,7 +94,7 @@ function handleImgClick(event) {
             j = 0;
         }
         $caruselImgElement.setAttribute("src", products[event.target.dataset.idx].additionalPhotos[j++])
-    },1000);
+    }, 1000);
 }
 
 function init() {
