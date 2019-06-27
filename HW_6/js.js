@@ -86,7 +86,7 @@ function handleBuyButtonClick(event) {
 }
 
 function handleImgClick(event) {
-    $caruselImgElement = document.getElementById("carusel_img");
+    $caruselImgElement = document.getElementById("carousel_img");
     var j = 1;
     $caruselImgElement.setAttribute("src", products[event.target.dataset.idx].additionalPhotos[0]);
     timerId = setInterval(function () {
