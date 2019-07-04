@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  width: 320px;
+}
+
+.actions button {
+  width: 150px;
+  height: 45px;
+  background-color: cadetblue;
+  color: whitesmoke;
+  font-size: 16px;
+}
+
+.actions .score {
+  width: 150px;
+  font-size: 32px;
+  color: cadetblue;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+}
+
+#snake-field {
+  background: black;
+  border: 1px solid green;
+  width: calc(20 * 15px + 20 * 1px);
+}
+
+.game-table {
+  border-collapse: collapse;
+}
+
+td.game-cell {
+  width: 15px;
+  height: 15px;
+  border: 1px dotted #eee;
+  border-collapse: collapse;
+}
+
+.snake-unit {
+  background-color: cornflowerblue;
+}
+
+.food-unit {
+  background-color: brown;
+}
